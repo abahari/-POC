@@ -1,6 +1,6 @@
 {
   "name": "poc_cl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "POC example",
   "devDependencies": {
     "@babel/core": "^7.17.9",
@@ -27,7 +27,8 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
-    "build": "rollup -c",
+    "prebuild": "rm -rf dist",
+    "build": "npm run prebuild && rollup -c",
     "watch": "rollup -c -w",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"

@@ -25,7 +25,11 @@ export default {
     plugins: [
         external(),
         resolve(),
-        babel({ babelHelpers: 'bundled' }),
+        babel({ 
+            babelHelpers: 'bundled',
+            exclude: "node_modules/**",
+            presets: ["@babel/preset-react"]
+        }),
         commonjs(),
         postcss(),
         terser()
