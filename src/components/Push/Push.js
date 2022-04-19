@@ -2,6 +2,7 @@ import React from 'react'
 import './push.css'
 
 const Push = (props) => {
+  console.log(props)
     const {
         editoText,
         CTAText,

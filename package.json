@@ -1,6 +1,6 @@
 {
   "name": "poc_cl",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "POC example",
   "devDependencies": {
     "@babel/core": "^7.17.9",

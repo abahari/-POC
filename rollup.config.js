@@ -15,11 +15,6 @@ export default {
             format: 'cjs',
             sourcemap: true,
             name: 'react-lib'
-        },
-        {
-            file: packageJson.module,
-            format: 'esm',
-            sourcemap: true
         }
     ],
     plugins: [
