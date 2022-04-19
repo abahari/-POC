@@ -1,4 +1,6 @@
+import React from 'react'
 import './push.css'
+
 const Push = (props) => {
     const {
         editoText,
